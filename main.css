@@ -1,0 +1,103 @@
+@font-face {
+  font-family: CeraPro-Regular;
+  src: url("/fonts/CeraPro-Regular.ttf");
+  font-family: CeraPro-Black;
+  src: url("/fonts/CeraPro-Black.woff");
+}
+@font-face {
+  font-family: CeraPro-Regular;
+  src: url("/fonts/CeraPro-Regular.ttf");
+}
+body {
+ 
+  color: #333;
+  font-family: CeraPro-Regular;
+  
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.container {
+ 
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.pstyle {
+  display: flex;
+  align-self: center;
+  justify-content: space-around;
+}
+.hr {
+  margin-top: 30px;
+  border: none; 
+  height: 1px; 
+  background-color: lightgray;
+  
+}
+.main {
+  margin-top: 10px;
+  background-color: #F5F5F5;
+  display: flex;
+}
+h1 {
+  font-size: 70px;
+  font-family: CeraPro-Black;
+
+
+}
+.Planet {
+  color: #46A358;
+}
+h3 {
+  font-size: 14px;
+  margin-top: 50px;
+  margin-bottom: -40px;
+  color: #3D3D3D;
+}
+.plant {
+  font-size: 14px;
+  color: #727272;
+  margin-top: -40px;
+}
+.button1 {
+  margin-top: 40px;
+  background: #46A358;
+  border-radius: 6px;
+  width: 140px;
+  height: 40px;
+  border-color: white;
+  border: none;
+}
+.plant-images {
+  margin-left: 130px;
+}
+.login-btn {
+  background-color: #46A358;
+  border-radius: 6px;
+  width: 140px;
+  height: 40px;
+  border-color: white;
+  border: none;
+}
+.plant-images1 {
+  margin-top: 298px;
+  margin-left: -450px;
+}
+  
+.login-btn {
+  background-position: left 15% center;
+}
+
+.hero {
+  margin-left: 40px;
+}
+
+
+
+
+
+
+
