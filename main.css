@@ -35,7 +35,7 @@ body {
   border: none; 
   height: 1px; 
   background-color: lightgray;
-  
+  margin-bottom: 20px;
 }
 .main {
   margin-top: 10px;
@@ -70,6 +70,8 @@ h3 {
   height: 40px;
   border-color: white;
   border: none;
+  color: white;
+  cursor: pointer;
 }
 .plant-images {
   margin-left: 130px;
@@ -81,6 +83,9 @@ h3 {
   height: 40px;
   border-color: white;
   border: none;
+  color: white;
+  cursor: pointer;
+  text-align: center;
 }
 .plant-images1 {
   margin-top: 298px;
@@ -94,7 +99,12 @@ h3 {
 .hero {
   margin-left: 40px;
 }
-
+.login-btn:hover {
+  background-color: green;
+}
+.button1:hover {
+  background-color: green;
+}
 
 
 
